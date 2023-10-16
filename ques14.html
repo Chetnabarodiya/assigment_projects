@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+      * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  height:800px;
+  width: 70%;
+  border:2px solid black;
+  background-color: grey;
+  margin-left: 150px;
+}
+
+/* Full-width input fields */
+input[type=text],input[type=password],input[type=number] {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+  radio-button {
+  display: inline-block;
+
+}
+
+hr {
+  
+  margin-bottom: 25px;
+}
+
+button{
+  height: 40px;
+  width:80px;
+  background-color: white;
+  color: black;
+  margin-left: 70px;
+}
+
+ </style>
+</head>
+<body>
+    <form>
+    <div class="container">
+        <h1>Details</h1>
+        <hr>
+        <label for="first-name "><b>first-name :</b></label>
+        <input type="text"  name="first-name" id="first-name" required>
+        <br>
+        <label for="last-name "><b>last-name :</b></label>
+        <input type="text"  name="last-name" id="last-name" required>
+        <br>
+        <label for="pass "><b>password:</b></label>
+        <input type="password"  name="pass"  required>
+        <br>
+        <label for="num "><b>Contact-number :</b></label>
+        <input type="text"  required>
+        <br>
+        <label for="num "><b>Age:</b></label>
+        <input type="number"  name="num"  required>
+        <br>
+        <label for="radio-button"><b>Gender :</b>
+          <input type="radio" name="Gender" value="Male">
+                  <label for="radio-button">male</label><br>
+                  <input type="radio" name="Gender" value="Female">
+                  <label for="radio-button">female</label><br>
+                  <input type="radio" name="Gender" value="Others">
+                  <label for="radio-button">others</label>
+        </label>
+        
+         <br>
+        <label for="email"><b>Email :</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <br>
+        
+        <button type="button" onclick="alert('success!')"> submit</button>
+    
+       
+      </div>
+    
+     
+    </form>
+</body>
+</html>
