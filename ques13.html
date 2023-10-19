@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height:80%;
+            width:80%;
+            border:2px solid blue;
+        }
+        label,p,h1,h3{
+            margin-left: 20px;
+        }
+        .box1{
+         height: 150px;
+         width:96%;
+         border: 2px solid black;
+         margin-left:2%;
+         margin-bottom: 10px;
+        }
+        .box2{
+         height: 100%;
+         width:96%;
+         border: 2px solid black;
+         margin-left:2%;
+         margin-bottom: 10px;
+        }
+        .box3{
+         height: 100%;
+         width:96%;
+         border: 2px solid black;
+         margin-left:2%;
+         margin-bottom: 10px;
+        }
+        button{
+            height: 40px;
+            width: 80px;
+            margin-bottom:10px;
+            margin-left: 20px;
+        }
+                
+    </style>
+</head>
+<body>
+    <div class="main">
+    <h1>DADO  TEA LUNCH SPECIAL </h1>
+     <P>Monday to friday</P>
+     <p>11am-3pm</p>
+     <p>$9+GST</p>
+     <br>
+     <p>Includes Sandwich ,snacks and Drink</p>
+     <div class="box1">
+        <h3>Order Information</h3>
+        <label for="name"><b>Name:</b></label>
+         <input type="text" >
+         <br> 
+         <label for="name"><b>Here</b></label>
+         <input type="checkbox" > 
+         <br>
+         <label for="name"><b>To go</b></label>
+         <input type="checkbox" >    
+     </div>
+     
+     <div class="box2">
+        <h3>Sandwich</h3>
+        <p><b>Monday</b></p>
+        <input type="checkbox" name="monday" id="monday" > 
+        <label for="monday">Tomato Mozerella</label>
+         <br>
+         <input type="checkbox" name="monday" id="monday" >
+         <label for="monday">chicken salad</label>
+          <br>
+          <p><b>Monday</b></p>
+        <input type="checkbox" > 
+        <label for="monday">Tomato Mozerella</label>
+         <br>
+         <input type="checkbox" >
+         <label for="monday">chicken salad</label>
+          <br><p><b>Monday</b></p>
+          <input type="checkbox" > 
+          <label for="monday">Tomato Mozerella</label>
+           <br>
+           <input type="checkbox" >
+           <label for="monday">chicken salad</label>
+            <br>
+            <hr>
+            <input type="checkbox" ><label>Gluten free bread for 7$ extra</label>
+
+         
+
+     </div>
+     <div class="box3">
+        <h3>snacks</h3>
+        <input type="checkbox" ><label>Apple</label>
+        <br>
+        <input type="checkbox" ><label>Banana</label>
+        <br>
+        <input type="checkbox" ><label>Potato Chips</label>
+
+
+     </div>
+     <button type="button" onclick='alert("success!")'>submit </button>
+    </div>
+</body>
+</html>
